@@ -1,6 +1,6 @@
 // server-room-horror - Sistema principal del servidor
 const nomServidor = "SRV-HALLOWEEN-01";
-let modeServidor = "possessit";
+let modeServidor = "santuari-protegit";
 
 function iniciarSistema() {
   console.log(`Iniciant ${nomServidor} en mode ${modeServidor}`);
