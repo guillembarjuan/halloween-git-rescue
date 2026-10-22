@@ -10,5 +10,12 @@ function bloquejarPortes() {
   console.log("Portes blindades de la sala de servidors bloquejades");
 }
 
+function alarmaTemperatura(temperatura) {
+  if (temperatura < 10) {
+    console.log("ALERTA: temperatura anòmala a la sala de servidors");
+  }
+}
+
 iniciarSistema();
 bloquejarPortes();
+alarmaTemperatura(4);
